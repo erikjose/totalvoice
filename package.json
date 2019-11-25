@@ -1,0 +1,30 @@
+{
+  "name": "totalvoice",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img width=\"366\" height=\"149\" src=\"./rsxp-logo.png\"> </p> Repositório do workshop (Implementando 2FA com NodeJS por SMS e Audio) apresentado por Raphael Santos no dia 25/11/2019 no evento Rocketseat Experience.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelmacsabpf/workshop-rsxp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaelmacsabpf/workshop-rsxp/issues"
+  },
+  "homepage": "https://github.com/raphaelmacsabpf/workshop-rsxp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "js-base64": "^2.5.1",
+    "totalvoice-node": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
